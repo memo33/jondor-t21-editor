@@ -1,0 +1,1428 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.6" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="patternSizeButtonGroup">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="typeColEditor">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new javax.swing.DefaultComboBoxModel(typeEnum.values())" type="code"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="lodColEditor">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new javax.swing.DefaultComboBoxModel(lodEnum.values())" type="code"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="propIIDEditor">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="propIIDEditorText">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
+                <EmptyBorder/>
+              </Border>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+              <BorderConstraints direction="Center"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="propIIDEditorButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="..."/>
+            <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+              <Insets value="[0, 0, 0, 0]"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+              <BorderConstraints direction="After"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="closable" type="boolean" value="true"/>
+    <Property name="defaultCloseOperation" type="int" value="0"/>
+    <Property name="iconifiable" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="internalFrameClosing" listener="javax.swing.event.InternalFrameListener" parameters="javax.swing.event.InternalFrameEvent" handler="formInternalFrameClosing"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,71,0,0,1,-22"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="t21Tabs">
+      <Properties>
+        <Property name="tabLayoutPolicy" type="int" value="1"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+          <BorderConstraints direction="Center"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="t21LayoutPanel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Layout  Properties">
+                <Property name="tabTitle" type="java.lang.String" value="Layout  Properties"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="tileLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="tileText" min="-2" pref="68" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="minSlopeLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="minSlopeText" min="-2" pref="68" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                              <Component id="maxSlopeLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="maxSlopeText" min="-2" pref="68" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="cancelCheck" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="nameLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="nameText" min="-2" pref="204" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="iidLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="iidText" min="-2" pref="68" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="patternPanel" min="-2" pref="148" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="filler1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                              <Component id="zonesPanel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="wealthLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="wealthNone" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="wealthLow" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="wealthMed" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="wealthHigh" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="flipsLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="flipsCombo" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="rotsLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="rotsNorth" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="rotsEast" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="rotsSouth" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="rotsWest" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="21" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="nameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="nameText" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="iidLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="iidText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="cancelCheck" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="tileLabel" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                              <Component id="tileText" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="minSlopeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="maxSlopeText" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="minSlopeText" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="maxSlopeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="zonesPanel" min="-2" max="-2" attributes="0"/>
+                          <Component id="filler1" min="-2" max="-2" attributes="0"/>
+                          <Component id="patternPanel" alignment="0" min="-2" pref="173" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="wealthLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="wealthNone" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="wealthLow" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="wealthMed" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="wealthHigh" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="flipsLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="flipsCombo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="rotsLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rotsNorth" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rotsEast" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rotsSouth" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rotsWest" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="157" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="nameLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Name:"/>
+                <Property name="toolTipText" type="java.lang.String" value="T21 Exemplar Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="nameText">
+              <Properties>
+                <Property name="toolTipText" type="java.lang.String" value="T21 Exemplar Name"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nameTextActionPerformed"/>
+                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="nameTextFocusLost"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="iidLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="IID:"/>
+                <Property name="toolTipText" type="java.lang.String" value="T21 Exemplar IID"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="iidText">
+              <Properties>
+                <Property name="toolTipText" type="java.lang.String" value="T21 Exemplar IID"/>
+                <Property name="inputVerifier" type="javax.swing.InputVerifier" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="hexVer" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="iidTextActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="cancelCheck">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cancellation Entry"/>
+                <Property name="toolTipText" type="java.lang.String" value="Creates a T21 Exemplar with a Name and IID only for overriding a T21 in another file."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="tileLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Network Tile:"/>
+                <Property name="toolTipText" type="java.lang.String" value="Network Tile IID this T21 affects."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tileText">
+              <Properties>
+                <Property name="toolTipText" type="java.lang.String" value="Network Tile IID this T21 affects."/>
+                <Property name="inputVerifier" type="javax.swing.InputVerifier" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="hexVer" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tileTextActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="minSlopeLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Min. Slope:"/>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="minSlopeText">
+              <Properties>
+                <Property name="inputVerifier" type="javax.swing.InputVerifier" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="floatVer" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="minSlopeTextActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="maxSlopeLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Max. Slope:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="maxSlopeText">
+              <Properties>
+                <Property name="inputVerifier" type="javax.swing.InputVerifier" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="floatVer" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="maxSlopeTextActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JPanel" name="patternPanel">
+              <Properties>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[148, 179]"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="patternHexLabel" alignment="0" pref="132" max="32767" attributes="1"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="patternSizeLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="patternSize3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="patternSize4" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="patternButton0" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="patternButton1" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="patternButton2" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="patternButton3" min="-2" pref="23" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="patternButton4" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="patternButton5" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="patternButton6" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="patternButton7" min="-2" pref="23" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="patternButton8" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="patternButton9" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="patternButton10" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="patternButton11" min="-2" pref="23" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="patternButton12" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="patternButton13" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="patternButton14" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="patternButton15" min="-2" pref="23" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="patternSizeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="patternSize3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="patternSize4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                  <Component id="patternButton0" alignment="0" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <Component id="patternButton1" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <Component id="patternButton2" min="-2" pref="23" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="patternButton3" min="-2" pref="23" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="patternButton4" min="-2" pref="23" max="-2" attributes="0"/>
+                              <Component id="patternButton5" min="-2" pref="23" max="-2" attributes="0"/>
+                              <Component id="patternButton6" min="-2" pref="23" max="-2" attributes="0"/>
+                              <Component id="patternButton7" min="-2" pref="23" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="patternButton8" min="-2" pref="23" max="-2" attributes="0"/>
+                              <Component id="patternButton9" min="-2" pref="23" max="-2" attributes="0"/>
+                              <Component id="patternButton10" min="-2" pref="23" max="-2" attributes="0"/>
+                              <Component id="patternButton11" min="-2" pref="23" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="patternButton12" min="-2" pref="23" max="-2" attributes="0"/>
+                              <Component id="patternButton13" min="-2" pref="23" max="-2" attributes="0"/>
+                              <Component id="patternButton14" min="-2" pref="23" max="-2" attributes="0"/>
+                              <Component id="patternButton15" min="-2" pref="23" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="patternHexLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="patternSizeLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Pattern Size:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="patternSize3">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="patternSizeButtonGroup"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="3"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="patternSize3ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="patternSize4">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="patternSizeButtonGroup"/>
+                    </Property>
+                    <Property name="selected" type="boolean" value="true"/>
+                    <Property name="text" type="java.lang.String" value="4"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="patternSize4ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JToggleButton" name="patternButton0">
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="patternButton[0] = patternButton0;"/>
+                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JToggleButton" name="patternButton1">
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="patternButton[1] = patternButton1;"/>
+                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JToggleButton" name="patternButton2">
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="patternButton[2] = patternButton2;"/>
+                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JToggleButton" name="patternButton3">
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="patternButton[3] = patternButton3;"/>
+                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JToggleButton" name="patternButton4">
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="patternButton[4] = patternButton4;"/>
+                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JToggleButton" name="patternButton5">
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="patternButton[5] = patternButton5;"/>
+                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JToggleButton" name="patternButton6">
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="patternButton[6] = patternButton6;"/>
+                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JToggleButton" name="patternButton7">
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="patternButton[7] = patternButton7;"/>
+                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JToggleButton" name="patternButton8">
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="patternButton[8] = patternButton8;"/>
+                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JToggleButton" name="patternButton9">
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="patternButton[9] = patternButton9;"/>
+                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JToggleButton" name="patternButton10">
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="patternButton[10] = patternButton10;"/>
+                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JToggleButton" name="patternButton11">
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="patternButton[11] = patternButton11;"/>
+                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JToggleButton" name="patternButton12">
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="patternButton[12] = patternButton12;"/>
+                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JToggleButton" name="patternButton13">
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="patternButton[13] = patternButton13;"/>
+                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JToggleButton" name="patternButton14">
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="patternButton[14] = patternButton14;"/>
+                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JToggleButton" name="patternButton15">
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="patternButton[15] = patternButton15;"/>
+                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JLabel" name="patternHexLabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="11" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Hex:"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="zonesPanel">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="zonesLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="zonesSeaport" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="zonesIMed" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="zonesNone" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="zonesCLow" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="zonesSpaceport" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="zonesIHigh" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="zonesCMed" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="zonesRLow" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="zonesRMed" min="-2" max="-2" attributes="0"/>
+                                      <Component id="zonesCHigh" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="zonesMilitary" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="zonesLandfill" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="zonesILow" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="zonesRHigh" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="zonesAirport" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="zonesPlopped" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="zonesLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="zonesNone" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="zonesRLow" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="zonesRMed" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="zonesRHigh" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="zonesCLow" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="zonesCMed" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="zonesCHigh" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="zonesILow" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="zonesIMed" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="zonesIHigh" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="zonesMilitary" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="zonesAirport" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="zonesSeaport" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                              <Component id="zonesSpaceport" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                              <Component id="zonesLandfill" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                              <Component id="zonesPlopped" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="zonesLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Zones:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="zonesNone">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="None"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="zonesCheck[0] = zonesNone;"/>
+                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="zonesRLow">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="R-Low"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="zonesCheck[1] = zonesRLow;"/>
+                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="zonesRMed">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="R-Med"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="zonesCheck[2] = zonesRMed;"/>
+                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="zonesRHigh">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="R-High"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="zonesCheck[3] = zonesRHigh;"/>
+                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="zonesCLow">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="C-Low"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="zonesCheck[4] = zonesCLow;"/>
+                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="zonesCMed">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="C-Med"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="zonesCheck[5] = zonesCMed;"/>
+                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="zonesCHigh">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="C-High"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="zonesCheck[6] = zonesCHigh;"/>
+                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="zonesILow">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="I-Ag"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="zonesCheck[7] = zonesILow;"/>
+                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="zonesIMed">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="I-Med"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="zonesCheck[8] = zonesIMed;"/>
+                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="zonesIHigh">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="I-High"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="zonesCheck[9] = zonesIHigh;"/>
+                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="zonesMilitary">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Military"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="zonesCheck[10] = zonesMilitary;"/>
+                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="zonesSeaport">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Seaport"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="zonesCheck[12] = zonesSeaport;"/>
+                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="zonesAirport">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Airport"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="zonesCheck[11] = zonesAirport;"/>
+                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="zonesSpaceport">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Spaceport"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="zonesCheck[13] = zonesSpaceport;"/>
+                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="zonesLandfill">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Landfill"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="zonesCheck[14] = zonesLandfill;"/>
+                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="zonesPlopped">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Plopped"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="zonesCheck[15] = zonesPlopped;"/>
+                    <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+                  </AuxValues>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="wealthLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Wealths:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="wealthNone">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="None"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="wealthLow">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="$"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="wealthMed">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="$$"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="wealthHigh">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="$$$"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="flipsLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Flips:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="flipsCombo">
+              <Properties>
+                <Property name="maximumRowCount" type="int" value="3"/>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="3">
+                    <StringItem index="0" value="Both"/>
+                    <StringItem index="1" value="Flipped Only"/>
+                    <StringItem index="2" value="Non-flipped Only"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="rotsLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Rotations:"/>
+                <Property name="toolTipText" type="java.lang.String" value="Rotation of the tile itself (camera direction)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="rotsNorth">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="0-North"/>
+                <Property name="toolTipText" type="java.lang.String" value="Rotation of the tile itself (camera direction)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="rotsEast">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="1-East"/>
+                <Property name="toolTipText" type="java.lang.String" value="Rotation of the tile itself (camera direction)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="rotsSouth">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="2-South"/>
+                <Property name="toolTipText" type="java.lang.String" value="Rotation of the tile itself (camera direction)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="rotsWest">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="3-West"/>
+                <Property name="toolTipText" type="java.lang.String" value="Rotation of the tile itself (camera direction)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.Box$Filler" name="filler1">
+              <Properties>
+                <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[0, 159]"/>
+                </Property>
+                <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[0, 159]"/>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[0, 159]"/>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="classDetails" type="java.lang.String" value="Box.Filler.RigidArea"/>
+              </AuxValues>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="t21PropPanel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Props and Flora">
+                <Property name="tabTitle" type="java.lang.String" value="Props and Flora"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="propTableScroller" alignment="0" pref="459" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="upButton" min="-2" pref="26" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="addButton" min="-2" pref="26" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="delButton" min="-2" pref="26" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="downButton" min="-2" pref="26" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="propBoundsButton" pref="122" max="32767" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="xMaxLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="xMinLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="xPosLabel" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="yPosLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="zPosLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="zPosText" alignment="1" pref="85" max="32767" attributes="0"/>
+                                                  <Component id="xMinText" alignment="0" pref="85" max="32767" attributes="0"/>
+                                                  <Component id="xMaxText" alignment="0" pref="85" max="32767" attributes="0"/>
+                                                  <Component id="yPosText" alignment="1" pref="85" max="32767" attributes="0"/>
+                                                  <Component id="xPosText" alignment="0" pref="85" max="32767" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="zMaxLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="zMinLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="rotLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="rotCombo" alignment="0" pref="85" max="32767" attributes="0"/>
+                                                  <Component id="zMinText" alignment="0" pref="85" max="32767" attributes="0"/>
+                                                  <Component id="zMaxText" alignment="0" pref="85" max="32767" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="formatCombo" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="propNameLabel" pref="190" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="boundingCheck" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="vertexCheck" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="propPanel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="propTableScroller" min="-2" pref="172" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="propPanel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="boundingCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="vertexCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="1">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="upButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="addButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="delButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="downButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="formatCombo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="propNameLabel" pref="14" max="32767" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="xPosLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="xPosText" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="yPosText" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="yPosLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="zPosText" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="zPosLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="xMinText" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="xMinLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="xMaxText" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="xMaxLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="zMinText" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="zMinLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="zMaxText" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="zMaxLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="rotCombo" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="rotLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="propBoundsButton" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="propTableScroller">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="propTable">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                      <Connection code="pfEditModel" type="code"/>
+                    </Property>
+                    <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                      <TableColumnModel selectionModel="1"/>
+                    </Property>
+                    <Property name="fillsViewportHeight" type="boolean" value="true"/>
+                    <Property name="selectionModel" type="javax.swing.ListSelectionModel" editor="org.netbeans.modules.form.editors2.JTableSelectionModelEditor">
+                      <JTableSelectionModel selectionMode="0"/>
+                    </Property>
+                    <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                      <TableHeader reorderingAllowed="false" resizingAllowed="true"/>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="upButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="^"/>
+                <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+                  <Insets value="[2, 2, 2, 2]"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="upButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="addButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="+"/>
+                <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+                  <Insets value="[2, 2, 2, 2]"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="delButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="-"/>
+                <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+                  <Insets value="[2, 2, 2, 2]"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="delButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="downButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="v"/>
+                <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+                  <Insets value="[2, 2, 2, 2]"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="downButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="formatCombo">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="2">
+                    <StringItem index="0" value="Decimal"/>
+                    <StringItem index="1" value="Hex"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="formatComboActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="propNameLabel">
+              <Properties>
+                <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[190, 14]"/>
+                </Property>
+                <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[190, 14]"/>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[190, 14]"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="xPosLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="X Pos:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="xPosText">
+              <Properties>
+                <Property name="inputVerifier" type="javax.swing.InputVerifier" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="posVer" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="xPosTextActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="yPosLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Y Pos:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="yPosText">
+              <Properties>
+                <Property name="inputVerifier" type="javax.swing.InputVerifier" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="posVer" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="yPosTextActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="zPosLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Z Pos:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="zPosText">
+              <Properties>
+                <Property name="inputVerifier" type="javax.swing.InputVerifier" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="posVer" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="zPosTextActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="xMinLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="X Min:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="xMinText">
+              <Properties>
+                <Property name="inputVerifier" type="javax.swing.InputVerifier" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="posVer" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="xMinTextActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="xMaxLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="X Max:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="xMaxText">
+              <Properties>
+                <Property name="inputVerifier" type="javax.swing.InputVerifier" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="posVer" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="xMaxTextActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="zMinLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Z Min:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="zMinText">
+              <Properties>
+                <Property name="inputVerifier" type="javax.swing.InputVerifier" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="posVer" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="zMinTextActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="zMaxLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Z Max:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="zMaxText">
+              <Properties>
+                <Property name="inputVerifier" type="javax.swing.InputVerifier" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="posVer" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="zMaxTextActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="rotLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Rot:"/>
+                <Property name="toolTipText" type="java.lang.String" value="Rotation of the prop face (stage direction)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="rotCombo">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value="South (0)"/>
+                    <StringItem index="1" value="West (1)"/>
+                    <StringItem index="2" value="North (2)"/>
+                    <StringItem index="3" value="East (3)"/>
+                  </StringArray>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value="Rotation of the prop face (stage direction)"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rotComboActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="propBoundsButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Get Prop Bounds"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="propBoundsButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JPanel" name="propPanel">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                    <BevelBorder bevelType="1"/>
+                  </Border>
+                </Property>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[260, 260]"/>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new PropPanel()"/>
+              </AuxValues>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <EmptySpace min="0" pref="256" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <EmptySpace min="0" pref="256" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+            </Container>
+            <Component class="javax.swing.JCheckBox" name="boundingCheck">
+              <Properties>
+                <Property name="selected" type="boolean" value="true"/>
+                <Property name="text" type="java.lang.String" value="Bounding Boxes"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="vertexCheck">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Model Vertices"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="buttonBar">
+      <Properties>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[479, 45]"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+          <BorderConstraints direction="Last"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="172" max="32767" attributes="0"/>
+                  <Component id="revertButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="closeButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="saveButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="saveCloseButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="saveCloseButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="saveButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="closeButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="revertButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="saveCloseButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Save &amp; Close"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saveCloseButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="saveButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Save"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saveButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="closeButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Close"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="closeButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="revertButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Revert"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="revertButtonActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
