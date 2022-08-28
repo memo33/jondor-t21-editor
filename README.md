@@ -22,13 +22,13 @@ T21 Editor version 0.51b
 
 This utility is designed to make the creation and editing of Type 21 exemplars easier.
 
----License---
+## License
 This program is provided free of charge and without warranty.  The creator cannot be held responsible for the integrity of your data should you use this program.  This program is not licensed by or associtated with Maxis or Electronic Arts.
 
----Requirements---
+## Requirements
 Java Runtime Environment 7 (JRE 7) or higher
 
----Version History---
+## Version History
 0.51b - Fixed a bug where using fewer than 4 zone types would crash the program on saving.  Saving dat files will no longer strip duplicate TGIs from the file.
 
 0.5b - Now reads prop exemplars and s3d models and displays the prop name and model vertices if available.  Also saves and reloads the last directory accessed.
@@ -50,12 +50,12 @@ Java Runtime Environment 7 (JRE 7) or higher
 0.1b - First NAM Team beta release
 
 
----Usage Guide---
+## Usage Guide
 With JRE 7 properly installed and configured to run JAR files, double click on T21_editor.bat to run.
 
 ***IMPORTANT NOTE!  Do not modify any plugin files while this program is open.  It is not yet robust enough to detect the discrepancy and may load or save bad data.***
 
----Interface---
+## Interface
 Open and save DBPF files with the File menu.  Double-click exemplars in the list to edit them.  Press delete with an exemplar selected to delete it.
 
 If no saved settings are found, the program will prompt for the SC4 app and user plugins directories.
