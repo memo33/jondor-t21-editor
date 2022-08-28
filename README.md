@@ -11,6 +11,11 @@ Build instructions
     java -jar dist/T21_editor.jar
 
 
+Packaging:
+
+    cd dist/ && zip -r T21_editor-0.6.0.zip lib/ T21_editor.jar && zip -j T21_editor-0.6.0.zip ../README.md
+
+
 
 
 The following is a copy of the original readme file.
@@ -18,7 +23,7 @@ The following is a copy of the original readme file.
 
 
 
-T21 Editor version 0.51b
+## T21 Editor
 
 This utility is designed to make the creation and editing of Type 21 exemplars easier.
 
@@ -29,6 +34,8 @@ This program is provided free of charge and without warranty.  The creator canno
 Java Runtime Environment 7 (JRE 7) or higher
 
 ## Version History
+0.6.0 - Fixed an issue that limited vertical prop placement to 0-16m. Now also negative values are possible. -memo
+
 0.51b - Fixed a bug where using fewer than 4 zone types would crash the program on saving.  Saving dat files will no longer strip duplicate TGIs from the file.
 
 0.5b - Now reads prop exemplars and s3d models and displays the prop name and model vertices if available.  Also saves and reloads the last directory accessed.

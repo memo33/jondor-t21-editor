@@ -452,7 +452,7 @@ public class T21EditWindow extends javax.swing.JInternalFrame {
             boolean isModified = this.modified;
             if(formatCombo.getSelectedIndex() == 0) {
                 xPosText.setText(Float.toString((float)currentPFE.xPos / 0x10000));
-                yPosText.setText(Float.toString((float)currentPFE.yPos / 0x10000));
+                yPosText.setText(Float.toString((float)((int) currentPFE.yPos) / 0x10000));  // signed 32-bit integers
                 zPosText.setText(Float.toString((float)currentPFE.zPos / 0x10000));
                 xMinText.setText(Float.toString((float)currentPFE.xMin / 0x10000));
                 xMaxText.setText(Float.toString((float)currentPFE.xMax / 0x10000));
@@ -591,7 +591,8 @@ public class T21EditWindow extends javax.swing.JInternalFrame {
         } catch(NumberFormatException e) {
             //Do Something?
         }
-        newY = Math.min(0xFFFFF, Math.max(newY, 0x0));
+        // newY = Math.min(0xFFFFF, Math.max(newY, 0x0));
+        newY = (long)((int) newY);  // this bounds the value to signed 32-bit integers
         currentPFE.yPos = newY;
         updatePropPos();
     }
