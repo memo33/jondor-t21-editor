@@ -254,8 +254,10 @@ public class T21EditWindow extends javax.swing.JInternalFrame {
                 while((objProp = (DBPFLongProperty) ex.getProperty(objID)) != null) {
                     PropFloraEncap pfe = new PropFloraEncap();
                     pfe.type = typeEnum.byCode(objProp.getValue(0));
-                    if(pfe.type == null)
+                    if(pfe.type == null) {
+                        objID++;
                         continue;
+                    }
                     pfe.lod = lodEnum.byCode(objProp.getValue(1) & 0xF0);
                     pfe.lod = (pfe.lod == null) ? lodEnum.ALL : pfe.lod;
                     pfe.flag = (objProp.getValue(1) & 0x0FL) != 0;
