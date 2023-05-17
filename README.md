@@ -34,6 +34,8 @@ This program is provided free of charge and without warranty.  The creator canno
 Java Runtime Environment 7 (JRE 7) or higher
 
 ## Version History
+0.6.1 - Fixed a crash caused by unexpected lot object types such as lot textures, courtesy of jflann. -memo
+
 0.6.0 - Fixed an issue that limited vertical prop placement to 0-16m. Now also negative values are possible. -memo
 
 0.51b - Fixed a bug where using fewer than 4 zone types would crash the program on saving.  Saving dat files will no longer strip duplicate TGIs from the file.
